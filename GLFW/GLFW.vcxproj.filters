@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="lib">
+      <UniqueIdentifier>{b17a2e2a-2929-4e37-9c5b-6d56d4707e82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{c3494db3-9f14-4143-af74-4e19aac03778}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\graphics">
+      <UniqueIdentifier>{27360ad5-0fab-45ad-b10d-468037995072}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\utils">
+      <UniqueIdentifier>{e47ed2aa-6bbe-4f1d-824e-2201dff10fb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\graphics\buffers">
+      <UniqueIdentifier>{82893965-aba5-4eb2-b4a6-15aa959206b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\graphics\buffers\buffer">
+      <UniqueIdentifier>{a95c948b-bf2e-420a-86e0-12b5995b0991}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\graphics\buffers\indexbuffer">
+      <UniqueIdentifier>{2c0fe794-20e8-4c14-b4a8-87654ec7d16e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\graphics\buffers\vertexarray">
+      <UniqueIdentifier>{b3d23561-301f-428d-898e-168c430d7314}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\graphics\renderer2d">
+      <UniqueIdentifier>{c189a6b6-d153-49ad-a3b1-1bd4c1ffa425}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\graphics\renderer2d\simplerenderer2d">
+      <UniqueIdentifier>{99ce8a9b-398c-43b8-849e-65d9016363e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\physics">
+      <UniqueIdentifier>{6d1773b1-687c-47eb-9882-e0644d5238b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\physics\boundingsphere">
+      <UniqueIdentifier>{dc6730ce-4207-476b-85c0-eb6b6a43dcc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\physics\aabb">
+      <UniqueIdentifier>{65110c8e-b89c-4720-bbd5-158463047ab1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\physics\plane">
+      <UniqueIdentifier>{67f098aa-13c0-4998-a9cc-4f80e766e696}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\graphics\shader">
+      <UniqueIdentifier>{daa75aa1-f49f-4647-b3ea-57fda4731466}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\graphics\window">
+      <UniqueIdentifier>{7b6c88c6-d945-44e3-9dbb-aaef0a0b042f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\physics\myaabb">
+      <UniqueIdentifier>{dc9278d4-e034-421c-a764-a6e1601c9513}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\physics\obb">
+      <UniqueIdentifier>{2d9fbead-b298-4703-b4e6-4a9d5630e749}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\physics\sat">
+      <UniqueIdentifier>{27db6f5b-8954-4f23-b82c-11b64793ab7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\graphics\renderer2d\batchrenderer2d">
+      <UniqueIdentifier>{5505a112-032e-446e-9756-9e5d412bc411}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\graphics\renderer2d\sprite">
+      <UniqueIdentifier>{de37bf08-ee02-401c-bbad-c5f6ac8f80f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\graphics\renderer2d\static_sprite">
+      <UniqueIdentifier>{31bb2a06-c013-45ac-956f-0a7f4eb52f3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\physics\newobb">
+      <UniqueIdentifier>{12e86752-7f91-4a97-9b4b-f4bd35b29864}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\physics\EpsilonOBB">
+      <UniqueIdentifier>{09a8f34b-9759-473b-8739-dffd14f0eebe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\snake">
+      <UniqueIdentifier>{acd25f8a-50a6-454a-b119-f2a629b64588}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="aabb.cpp">
+      <Filter>src\physics\aabb</Filter>
+    </ClCompile>
+    <ClCompile Include="boundingsphere.cpp">
+      <Filter>src\physics\boundingsphere</Filter>
+    </ClCompile>
+    <ClCompile Include="buffer.cpp">
+      <Filter>src\graphics\buffers\buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="indexbuffer.cpp">
+      <Filter>src\graphics\buffers\indexbuffer</Filter>
+    </ClCompile>
+    <ClCompile Include="plane.cpp">
+      <Filter>src\physics\plane</Filter>
+    </ClCompile>
+    <ClCompile Include="simple2drenderer.cpp">
+      <Filter>src\graphics\renderer2d\simplerenderer2d</Filter>
+    </ClCompile>
+    <ClCompile Include="shader.cpp">
+      <Filter>src\graphics\shader</Filter>
+    </ClCompile>
+    <ClCompile Include="window.cpp">
+      <Filter>src\graphics\window</Filter>
+    </ClCompile>
+    <ClCompile Include="vertexarray.cpp">
+      <Filter>src\graphics\buffers\vertexarray</Filter>
+    </ClCompile>
+    <ClCompile Include="sat.cpp">
+      <Filter>src\physics\sat</Filter>
+    </ClCompile>
+    <ClCompile Include="myaabb.cpp">
+      <Filter>src\physics\myaabb</Filter>
+    </ClCompile>
+    <ClCompile Include="batchrenderer2d.cpp">
+      <Filter>src\graphics\renderer2d\batchrenderer2d</Filter>
+    </ClCompile>
+    <ClCompile Include="sprite.cpp">
+      <Filter>src\graphics\renderer2d\sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="static_sprite.cpp">
+      <Filter>src\graphics\renderer2d\static_sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="obb.cpp">
+      <Filter>src\physics\obb</Filter>
+    </ClCompile>
+    <ClCompile Include="obbnew.cpp">
+      <Filter>src\physics\newobb</Filter>
+    </ClCompile>
+    <ClCompile Include="EpsilonOBB.cpp">
+      <Filter>src\physics\EpsilonOBB</Filter>
+    </ClCompile>
+    <ClCompile Include="snake.cpp">
+      <Filter>src\snake</Filter>
+    </ClCompile>
+    <ClCompile Include="fruit.cpp">
+      <Filter>src\snake</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="aabb.h">
+      <Filter>src\physics\aabb</Filter>
+    </ClInclude>
+    <ClInclude Include="boundingsphere.h">
+      <Filter>src\physics\boundingsphere</Filter>
+    </ClInclude>
+    <ClInclude Include="buffer.h">
+      <Filter>src\graphics\buffers\buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="indexbuffer.h">
+      <Filter>src\graphics\buffers\indexbuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="intersectdata.h">
+      <Filter>src\physics</Filter>
+    </ClInclude>
+    <ClInclude Include="plane.h">
+      <Filter>src\physics\plane</Filter>
+    </ClInclude>
+    <ClInclude Include="renderable2d.h">
+      <Filter>src\graphics\renderer2d</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer2d.h">
+      <Filter>src\graphics\renderer2d</Filter>
+    </ClInclude>
+    <ClInclude Include="simple2drenderer.h">
+      <Filter>src\graphics\renderer2d\simplerenderer2d</Filter>
+    </ClInclude>
+    <ClInclude Include="shader.h">
+      <Filter>src\graphics\shader</Filter>
+    </ClInclude>
+    <ClInclude Include="window.h">
+      <Filter>src\graphics\window</Filter>
+    </ClInclude>
+    <ClInclude Include="vertexarray.h">
+      <Filter>src\graphics\buffers\vertexarray</Filter>
+    </ClInclude>
+    <ClInclude Include="sat.h">
+      <Filter>src\physics\sat</Filter>
+    </ClInclude>
+    <ClInclude Include="myaabb.h">
+      <Filter>src\physics\myaabb</Filter>
+    </ClInclude>
+    <ClInclude Include="batchrenderer2d.h">
+      <Filter>src\graphics\renderer2d\batchrenderer2d</Filter>
+    </ClInclude>
+    <ClInclude Include="sprite.h">
+      <Filter>src\graphics\renderer2d\sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="static_sprite.h">
+      <Filter>src\graphics\renderer2d\static_sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="obb.h">
+      <Filter>src\physics\obb</Filter>
+    </ClInclude>
+    <ClInclude Include="obbnew.h">
+      <Filter>src\physics\newobb</Filter>
+    </ClInclude>
+    <ClInclude Include="fileutils.h">
+      <Filter>src\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="timer.h">
+      <Filter>src\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="EpsilonOBB.h">
+      <Filter>src\physics\EpsilonOBB</Filter>
+    </ClInclude>
+    <ClInclude Include="snake.h">
+      <Filter>src\snake</Filter>
+    </ClInclude>
+    <ClInclude Include="fruit.h">
+      <Filter>src\snake</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

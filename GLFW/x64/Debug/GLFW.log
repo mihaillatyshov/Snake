@@ -1,0 +1,12 @@
+﻿  main.cpp
+c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\minwindef.h(130): warning C4005: APIENTRY: изменение макроопределения
+  d:\cpp_team\glfw\glfw_test\deps\glfw\include\glfw3.h(98): note: см. предыдущее определение "APIENTRY"
+d:\cpp_team\glfw\glfw_test\glfw\sat.h(53): warning C4018: <: несоответствие типов со знаком и без знака
+d:\cpp_team\glfw\glfw_test\glfw\sat.h(68): warning C4267: return: преобразование из "size_t" в "int"; возможна потеря данных
+d:\cpp_team\glfw\glfw_test\glfw\main.cpp(108): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+d:\cpp_team\glfw\glfw_test\glfw\main.cpp(111): warning C4305: +=: усечение из "double" в "float"
+d:\cpp_team\glfw\glfw_test\glfw\main.cpp(112): warning C4305: +=: усечение из "double" в "float"
+LINK : warning LNK4098: сшсышюЄхър яю єьюыўрэш■ "MSVCRT" яЁюЄштюЁхўшЄ шёяюы№чютрэш■ фЁєушї сшсышюЄхъ; шёяюы№чєщЄх ярЁрьхЄЁ /NODEFAULTLIB:library
+LINK : warning LNK4098: сшсышюЄхър яю єьюыўрэш■ "LIBCMT" яЁюЄштюЁхўшЄ шёяюы№чютрэш■ фЁєушї сшсышюЄхъ; шёяюы№чєщЄх ярЁрьхЄЁ /NODEFAULTLIB:library
+glew32s.lib(glew.obj) : warning LNK4099: "vc120.pdb" PDB эх эрщфхэ ё "glew32s.lib(glew.obj)" шыш эр "D:\CPP_Team\GLFW\GLFW_Test\bin\Debug\vc120.pdb"; ъюьяюэютър юс·хъЄр т√яюыэ хЄё  ъръ яЁш юЄёєЄёЄтшш юЄырфюўэ√ї фрээ√ї
+  GLFW.vcxproj -> D:\CPP_Team\GLFW\GLFW_Test\bin\Debug\GLFW.exe
